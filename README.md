@@ -7,7 +7,7 @@ Java HotSpot コンパイラが、 "COMPILE SKIPPED: out of nodes during split" 
 短いコードで確認できる良い方法が思いつかず、延々と意味の無い長いコードになってしまいました。　　
 
 $ javac oon.java  
-$ java -XX:+PrintCompilation oon で起動すると COMPILE SKIPPED の状況が確認できます。　　
+$ java -XX:+PrintCompilation oon で起動すると COMPILE SKIPPED の状況が確認できます。  
     ...  
        7302   19             oon::challenge (7992 bytes)   COMPILE SKIPPED: out of nodes during split (not retryable)  
     ...  
